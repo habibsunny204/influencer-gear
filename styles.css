@@ -159,7 +159,7 @@ nav{
     border-radius: 5px; 
     padding: 17px 15px; 
     background-color: #fff;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -184,6 +184,61 @@ nav{
     font-weight: bold;
     font-size: 1rem;
     text-align: right;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 97px;
+    margin: 0px 165px;
+}
+.container-2-info h1{
+    font-weight: bold;
+    font-size: 2.375rem;
+    color: rgba(10, 8, 38, 1);
+}
+.container-2-info p{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(108, 108, 108, 1);
+}
+.container-2-img img{
+    border-radius: 7px;
+}
+/* footer */
+footer h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    margin-top: 50px;
+}
+footer h3{
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: white;
+    margin: 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 8, 38, 1);
+    margin-top: 100px;
+}
+.footer-icons{
+    margin-top: 17px;
+    margin-bottom: 50px;
+}
+.footer-icons i{
+    padding: 7.46px;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid rgba(149, 143, 219, 0.1);
+    background-color: rgba(149, 143, 219, 0.1);
+    border-radius: 50%;
+
 }
 @media screen and (max-width:575.989px) {
     .header-font{
@@ -248,5 +303,44 @@ nav{
     }
     .header-brands img{
         width: 55px;
+    }
+    .container-1{
+        margin: 0px auto 50px auto;
+    }
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    .container-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        margin: 0px 15px;
+    }
+    
+    .container-2-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-2-info h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .container-2-info p,.container-2-info h1{
+        width: 320px;
+        height: 100%;
+    }
+    .container-2-img{
+        width: 300px;
+        height: 188px;
+    }
+    .container-2-img img{
+        width: 100%;
     }
 }
