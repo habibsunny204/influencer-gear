@@ -1,0 +1,110 @@
+/* font */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* header */
+
+.header-font{
+   color: rgba(58, 58, 58, 1);
+   margin: 90px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 34px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+
+/* hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-description{
+    width: 582px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+.hero-details{
+    font-weight: 600;
+    margin: 0;
+}
+
+.btn-primary{
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    margin: 0;
+}
+.btn-gap{
+   margin-left: 8px;
+}
+.hero-image{
+    width: 475px;
+    height: 475px;
+    background-image: url('images/Circle design.svg');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.hero-image img{
+    width: 440px;
+    height: 414px;
+    margin: 30px 33px 30px 2px;
+}
+.header-brands{
+    padding: 35px 0px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
