@@ -163,7 +163,6 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    gap: 0px;
 }
 .card-item img{
     width: 100%;
@@ -177,13 +176,13 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-bottom: 50px;
 }
 .see-more{
     color: rgba(224, 44, 109, 0.87);
     font-weight: bold;
     font-size: 1rem;
     text-align: right;
+    margin-top: 50px;
 }
 .container-2{
     display: flex;
