@@ -113,6 +113,78 @@ nav{
 .display{
     display: none;
 }
+
+/* main */
+.container-1{
+    margin: 0px 195px 100px 195px;
+}
+.container-1-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 30px;
+}
+.item-name{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+.item-price{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+.description{
+    color: rgba(120, 120, 133, 1);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.rating i{
+    color: rgba(251, 130, 0, 1);
+}
+.rating h4{
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: rgba(94, 99, 102, 1);
+}
+.rating{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.card-item {
+    width: 330px;
+    height: 476px;
+    border-radius: 5px; 
+    padding: 17px 15px; 
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 0px;
+}
+.card-item img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.card-item h3, .card-item p , .rating{
+    margin: 0;
+}
+.cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: right;
+}
 @media screen and (max-width:575.989px) {
     .header-font{
         display: flex;
